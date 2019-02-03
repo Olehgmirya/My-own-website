@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/bg2.png);
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+/*---HEADER---*/
+
+
+
+header {
+    width: 85%;
+    margin: 0 auto;
+    background-color: black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.header-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo-tittle {
+    color: darkgray;
+    font-family: Calibri, sans-serif;
+    font-size: 2em;
+    line-height: 2.4;
+}
+
+.logo {
+    width: 30%;
+}
+
+.reg-auth {
+    width: 22%;
+    margin-top: 18px;
+    justify-content: space-between;
+}
+
+.reg-btn {
+    background-color: crimson;
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 4px 6px 5px 6px;
+    border-radius: 5px;
+}
+
+.auth-btn {
+    background-color: crimson;
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 4px 6px 5px 6px;
+    border-radius: 5px;
+}
+
+/*---MAIN---*/
+
+.content {
+    width: 70%;
+    background-color: #e5e5e5;
+    border: 3px solid black;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.news {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.news-tittle {
+    font-family: Calibri, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.article {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 15px;
+    border-bottom: 1px solid grey;
+}
+
+.article-img-container {
+    width: 35%;
+}
+
+.article-text-container {
+    width: 65%;
+}
+
+.article-tittle {
+    font-family: Calibri, sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.article-text {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 35px;
+    text-align: justify;
+}
+
+.read-all {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    width: 150px;
+    padding: 5px;
+    background-color: crimson;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+
+.css-img {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*---COURSES---*/
+
+.courses {
+    width: 25%;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.container .courses span {
+    display: block;
+}
+
+.html-cours-tittle {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: orangered;
+    font-family: Arial, sans-serif;
+}
+
+.css-cours-tittle {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: yellowgreen;
+    font-family: Arial, sans-serif;
+}
+
+.js-cours-tittle {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: deepskyblue;
+    font-family: Arial, sans-serif;
+}
+
+.course-link {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    margin: 5px 0 0 10px;
+    color: crimson;
+}
